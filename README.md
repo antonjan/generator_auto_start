@@ -11,10 +11,10 @@ This repository will only have the Generator start documentation.<br>
 The Generator stop details will be holed in the following repository. https://github.com/antonjan/automatic_power_transfer_system <br>
 I wanted to modes.<br>
 One to autostart when ever the City Power is down.<br>
-Two Only Start the generator when I give a command remotely.<br>
+Two Only Start the generator when I give a command remotely via Wifi TCP connection.<br>
 ## Generator Requerments.
 To Start a Petrol Generator you need to consider the following.<br>
-1) Chock need to be pulled when generator is coled and the starter needs to be activated untill engin starts and the Chocke must be released.
+1) Chock need to be pulled when generator is could and the starter needs to be activated untill engin starts and the Chocke must be released to it run postion.
 2) Detect if Generator is cold or warm to identify if chock need to be pulled.<br>
 3) A warm start mite only need an Half chocke setting to start on some Generators no Choke.
 4) Detect if Generator is running.
@@ -28,3 +28,9 @@ Lets look at the Coled Start option first.<br>
 3) Close relay for Starter and on position key and monitor output voltage for (Predefined Time, Must be configurable EG 900ms)
 4) if Voltage rises then deactive Chock Actuator to disable chock disconnect Starter relay but keep on relay on.
 5) if Voltage did not rise then deactivate starter relay but keep on relay to on position. Waite for about 3 Seconds and then gotostart with one<br>
+## Start only with TCP Command via Mobile APP.
+
+
+## Read exsiting Status of power and Generator via Mobile APP.
+
+## Stop Generator remotely via Mobile App. 
