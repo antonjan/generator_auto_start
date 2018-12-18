@@ -1,5 +1,6 @@
+# Project Status.
 # generator_auto_start
-Status.<br>
+
 This Repository only started and is not compleetb yet<br>
 This repository will have att the details of how I have build an Remote controllable Generator Auto start capability.<br>
 I wanted to have the capability to start my Petrol Generator when we have Power outage at my hous.<br>
